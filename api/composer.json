@@ -1,0 +1,41 @@
+{
+    "name": "ruhua/api",
+    "description": "ruhuaapi",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baok1592",
+            "email": "wyc0859@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "secure-http": false
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "topthink/framework": "^6.0.0",
+        "topthink/think-orm": "^2.0",
+        "ruhua/framework":"v1.2",
+       
+        "firebase/php-jwt":"5.2.0",
+       
+      "ext-json": "*",
+        "phpoffice/phpspreadsheet": "dev-master",
+        "topthink/think-view": "dev-master"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2",
+        "topthink/think-trace":"^1.0"
+    }
+}

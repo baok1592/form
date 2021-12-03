@@ -1,0 +1,33 @@
+/* 引入图标 */
+
+/* {
+  font-family: "iconfont" !important;
+  font-size: 18px !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+@font-face {
+  font-family: "iconfont"; /* Project id 1284687 */
+  src: url('iconfont.eot?t=1621058322281'); /* IE9 */
+  src: url('iconfont.eot?t=1621058322281#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff2?t=1621058322281') format('woff2'),
+       url('iconfont.woff?t=1621058322281') format('woff'),
+       url('iconfont.ttf?t=1621058322281') format('truetype'),
+       url('iconfont.svg?t=1621058322281#iconfont') format('svg');
+}
+[class^="icon-erweima"],
+[class*="icon-erweima"]
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-erweima:before {
+  content: "\e602";
+}
+

@@ -1,0 +1,125 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+
+
+			}
+		},
+		{
+			"path": "pages/pro/pro",
+			"style": {
+				"navigationBarTitleText": "项目"
+
+			}
+
+		},
+		{
+			"path": "pages/pro_select/pro_select",
+			"style": {
+				"navigationBarTitleText": "项目"
+
+			}
+
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "预约填写"
+
+			}
+
+		},
+		{
+			"path": "pages/order_select/order_select",
+			"style": {
+				"navigationBarTitleText": "预约详情"
+
+			}
+
+		},
+		{
+			"path": "pages/order/order_res",
+			"style": {
+				"navigationBarTitleText": "预约结果"
+
+			}
+
+		},
+		{
+			"path": "pages/pro/pro_res",
+			"style": {
+				"navigationBarTitleText": "项目查询结果"
+
+			}
+
+		},
+		{
+			"path": "pages/select/select",
+			"style": {
+				"navigationBarTitleText": "预约查询"
+		
+			}
+		
+		},
+		{
+			"path": "pages/select/select_res",
+			"style": {
+				"navigationBarTitleText": "预约查询结果"
+
+			}
+
+		}
+	],
+
+	"plugins": {
+		"live-player-plugin": {
+			"version": "1.3.2",
+			"provider": "wx2b03c6e691cd7370"
+		}
+	},
+
+
+
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#00aaff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index_select.png"
+			},
+
+			{
+				"pagePath": "pages/pro_select/pro_select",
+				"text": "项目",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my_select.png"
+			}
+
+		]
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigatiwonBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#c4ffd5",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
