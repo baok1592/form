@@ -67,9 +67,18 @@ class sys_config extends Model
         return $arr;
     }
 
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 07ebe3a393960bcd3e22c0168f962d4ead28f67f
     static public function getfindvalue($id){
         $data=self::find($id);
         return $data['value'];
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 07ebe3a393960bcd3e22c0168f962d4ead28f67f
 }

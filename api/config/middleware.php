@@ -3,7 +3,6 @@
 return [
     // 别名或分组
     'alias'    => [
-       
         'checkcms'=>\app\middleware\Checkcms::class,
         'checkOrder'=>\app\middleware\CheckOrder::class,
     ],

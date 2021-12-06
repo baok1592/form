@@ -17,7 +17,9 @@ namespace think;
 require __DIR__ . '/../vendor/autoload.php';
 
 // 定义程序当前版本号
-define('VAE_VERSION','1.0.1');
+
+define('VAE_VERSION','1.0.2');
+
 
 // 定义vaeThink项目目录
 define('VAE_ROOT', __DIR__ . '/../');

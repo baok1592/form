@@ -9,5 +9,4 @@ return [
     // \think\middleware\SessionInit::class
 //     app\http\middleware\CheckCms::class
 
-
 ];

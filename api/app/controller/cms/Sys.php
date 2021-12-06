@@ -26,6 +26,8 @@ class Sys
     public function edkey(){
         return app('json')->go(sys_config::edkey2());
     }
+<<<<<<< HEAD
+=======
 
     public function getAllSysteam2(){
 
@@ -48,4 +50,5 @@ class Sys
 
 
     }
+>>>>>>> 07ebe3a393960bcd3e22c0168f962d4ead28f67f
 }
